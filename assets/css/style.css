@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://picsum.photos/1920/1080);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lupa{
+    width: 30px;
+    height: 30px;
+}
+
+.main{
+    border: 2px solid #000;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(212,227,245,1) 52%, rgba(197,223,253,1) 100%);
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 20px;
+    color: darkblue;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color:  darkblue;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 90%;
+    opacity: 0.;
+}
+button{
+    float: right;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+.box-media{
+    margin-top: 15px;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+.little-box{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin-top: 10px;
+}
